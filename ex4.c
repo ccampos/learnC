@@ -1,18 +1,14 @@
 #include <stdio.h>
 
-/* Warning: This program is wrong on purpose. */ 
+/* Warning: This program is wrong on purpose. */
 
 int main()
 {
-    int age = 12;
-    int height = 75;
-    char name[] = "Charly";
-    float chest = 40.5;
+	int age = 10;
+	int height = 5;
 
-    printf("I am %d years old. \n", age);
-    printf("I am %d inches tall. \n", height);
-    printf("His name is %s. \n", name);
-    printf("His chest size is %.3f. \n", chest);
+	printf("I am %d years old.\n", age);
+	printf("I am %d inches tall.\n", height);
 
-    return 0;
+	return 0;
 }
