@@ -1,6 +1,6 @@
 CFLAGS=-Wall -g
 
-all: clean c4
+all: clean c6
 
 c1:
 	make ex1
@@ -14,6 +14,10 @@ c4:
 	make ex4
 	./ex4
 
+c6:
+	make ex6
+	valgrind ./ex6
+
 clean:
-	rm -rf ex1.dSYM
-	rm -f ex1
+	rm -rf ex6.dSYM
+	rm -f ex6
